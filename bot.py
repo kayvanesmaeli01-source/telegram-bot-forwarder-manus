@@ -11,7 +11,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 
 from aiohttp import web
-from aiogram.webhook.aiohttp_server import SimpleRequestHandler, setup_webhook
+from aiogram.webhook.aiohttp_server import SimpleRequestHandler
 
 # اطلاعات ربات
 API_TOKEN = os.getenv('BOT_TOKEN')
